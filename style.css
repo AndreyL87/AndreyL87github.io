@@ -36,7 +36,7 @@ body {
 	padding: 25px 0;
 	background-color: rgba(255,255,255,0.75);
 }
-.menu li {
+.menu li, .search li {
 	width: 25%;
 	float: left;
 	border-left: 1px solid #2c71b8;	
@@ -59,3 +59,32 @@ body {
 	color: white; 
 
 }
+.search input {
+	width: 69.74444%;
+	text-align-left:20px;
+	text-align-right: 20px; 
+	margin: 10px 30px 10px 30px;
+	padding: 5px;
+	color: #2c71b8;
+	border: 1px solid #2c71b8;
+	background: #cadbed;
+	text-decoration: #2c71b8;
+
+} 
+.search img {
+  position: relative;
+  top: 7px;
+  bottom: 7px;
+  right: 60px;
+  background-color: #2c71b8;
+  padding: 5px;
+  text-decoration: #2c71b8; 
+
+ }
+ .basket img  {
+ position: relative;
+ background-color: #fff;
+ left: 90%;
+ bottom: 100px;
+ top: -40px
+ }
