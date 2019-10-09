@@ -7,6 +7,7 @@ body {
 body {
 	font-family: 'roboto', sans-serif;
 	background-image: url(images/patt.png);
+	/*background-image: url(images/search.png);*/
 	/*background-repeat: no-repeat;
 	background-position: center;*/
 }
@@ -59,7 +60,39 @@ body {
 	color: white; 
 
 }
+.search {
+	padding: 10 0;
+}
 .search input {
+	margin-left: 30px;
+	background: #cadbed;
+	text-decoration: #2c71b8;
+	border: 1px solid #2c71b8;	
+	position: relative;	
+	line-height: 20px;
+	background-image: url(images/search.png);
+	/*background-image: url(images/basket.png);*/
+	background-repeat: no-repeat;
+	background-position: right;
+	
+}
+.search input[type="button"] {
+	width: 30px;
+	height: 30px; 
+	background-color: white;
+	background-image: url(images/basket.png);
+	background-position: center;
+}
+.menu li ul  {
+	position: absolute;
+	min-width: 150px;
+	text-decoration: #2c71b8;
+	margin: right;
+	
+
+	/*display: none;*/
+}
+/*.search input {
 	width: 69.74444%;
 	text-align-left:20px;
 	text-align-right: 20px; 
@@ -88,3 +121,4 @@ body {
  bottom: 100px;
  top: -40px
  }
+*/
